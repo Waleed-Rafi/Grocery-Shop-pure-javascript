@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://f0.pngfuel.com/png/8/373/black-and-white-logo-illustration-shopping-bags-trolleys-shopping-cart-logo-online-shop-png-clip-art.png">
+    <title>Shop</title>
+</head>
+
+<body>
+    <!--  ----------Header navbar----------        -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img id="logo"
+                src="https://img.favpng.com/6/1/7/basket-icon-buy-icon-cart-icon-png-favpng-8S2wSBinbNjndz8NG8Zp2hkB2.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Cart <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Admin
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Add some items</a>
+                        <a class="dropdown-item" href="#">See all orders</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav><br><br>
+
+    <!--  ----------Main page----------        -->
+    <div class="row">
+        <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                    href="#list-home" role="tab" aria-controls="home">All Categories</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="profile">Fruits</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                    href="#list-messages" role="tab" aria-controls="messages">Vegetables</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="settings">Dry Fruits</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="settings">Drinks</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="settings">Mineral Water</a>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://www.heart.org/-/media/aha/h4gm/article-images/fruit-and-vegetables.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Frest vegs</h5>
+                            <p class="card-text">Dummy data: This is a longer card with supporting text below as a
+                                natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-secondary">Add to card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://www.health.harvard.edu/media/content/images/H0517_Veggies_TSk-512628780.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegetables</h5>
+                            <p class="card-text">Dummy date: This is a longer card with supporting text below as a
+                                natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-secondary">Add to card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://moneydotcomvip.files.wordpress.com/2019/12/eat-fruits-vegetables-get-paid-998408416.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Fruits</h5>
+                            <p class="card-text">Dummy data: This is a longer card with supporting text below as a
+                                natural lead-in
+                                to additional content.</p>
+                            <button class="btn btn-secondary">Add to card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://www.betterhealth.vic.gov.au/-/media/bhc/images/healthy-living/fruit-and-veg_1050x600.jpg?la=en&hash=5ECB91F9A36CF7C689B210398A1B131CD8A7616F"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mix</h5>
+                            <p class="card-text">Dummy data: This is a longer card with supporting text below as a
+                                natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-secondary">Add to card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  ----------footer----------        -->
+    <footer class="page-footer font-small special-color-dark pt-4">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a target="_blank" href="https://twitter.com/WaleedRafi7"> WaleedRafi.com</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
